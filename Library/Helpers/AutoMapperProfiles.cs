@@ -11,6 +11,8 @@ namespace Library.Helpers
             CreateMap<RegisterDto, AppUser>();
             CreateMap<AppUser, UserDto>();
             CreateMap<UserDto, AppUser>();
+            CreateMap<Book, BookDto>();
+            CreateMap<BookDto, Book>();
         }
     }
 }
